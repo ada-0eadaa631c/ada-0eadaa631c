@@ -14,3 +14,4 @@ g: expresses the floating-point number with the minimum number of significant fi
 4. ** power
 5. math.sqrt, pi, sin, cos, log
 6. No return value implies that `None` is returned. `None` is a special Python object (singleton) that semantically often represents an ”empty” or undefined value.
+7. 
