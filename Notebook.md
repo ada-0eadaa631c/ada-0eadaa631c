@@ -29,4 +29,7 @@ np.linspace(1, 30, 30).reshape(5, 6)
         for j in range(B.shape[1]):      # 遍历 B 的列
             for k in range(A.shape[1]):  # 遍历 A 的列 / B 的行
                 res[i, j] += A[i, k] * B[k, j]
-14. 
+14. plt.grid() 绘制网格图
+15. pendulum: At the moment the Python library *pendulum* seems to be the best out there for parsing various different date and time formats and is pretty easy to use.
+16. if not line or line.startswith("#")
+17. 
