@@ -39,4 +39,27 @@ t = "1st line\n2nd line\n3rd line"
 print(f"original t =\n{t}")
 20. s.strip()  s.lstrip()  s.rstrip()
 21. join(): We can join a list of substrings to form a new string.
-22. 
+22. marked as protected by prefixing the name with an underscore (e.g. `_name`)
+23. cmath: complex number
+24. __call__: make the class instance behave and look as a function  
+__str__: represent object as a string for printing, Python will use this method to convert the object to a string.
+25. Special methods for overloading conditional operations
+```python
+a == b               #  a.__eq__(b)  
+a != b               #  a.__ne__(b)  
+a < b                #  a.__lt__(b)  
+a <= b               #  a.__le__(b)  
+a > b                #  a.__gt__(b)  
+a >= b               #  a.__ge__(b)
+```
+26. Special methods for overloading arithmetic operations
+```python
+c=a+b               # c = a.__add__(b)  
+c=a-b               # c = a.__sub__(b)  
+c = a*b             # c = a.__mul__(b)  
+c = a/b             # c = a.__div__(b)  
+c = a**e            # c = a.__pow__(e)
+```
+27. id(a)
+28. shallow copy: b = copy.copy(a)  
+copy.deepcopy(): make copies of objects elements are bound to as well.
