@@ -32,4 +32,11 @@ np.linspace(1, 30, 30).reshape(5, 6)
 14. plt.grid() 绘制网格图
 15. pendulum: At the moment the Python library *pendulum* seems to be the best out there for parsing various different date and time formats and is pretty easy to use.
 16. if not line or line.startswith("#")
-17. 
+17. dictionary: for key in sorted(temps)
+18. Strings also support substituting a substring by another string. In general this looks like `s.replace(s1, s2)`
+19. split a string into lines:  print(t.splitlines())
+t = "1st line\n2nd line\n3rd line"  
+print(f"original t =\n{t}")
+20. s.strip()  s.lstrip()  s.rstrip()
+21. join(): We can join a list of substrings to form a new string.
+22. 
